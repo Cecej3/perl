@@ -1,0 +1,17 @@
+@import "../../base";
+
+.select-menu {
+    border-radius: 6px !important;
+    width: 100%;
+    justify-content: space-between !important;
+
+    span {
+        flex: 0;
+    }
+}
+
+.select-menu-list {
+    max-height: 240px;
+    width: 100% !important;
+    overflow-y: scroll;
+}

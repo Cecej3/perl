@@ -1,0 +1,23 @@
+@import '../../base';
+
+.quick-action {
+
+    >button {
+        width: 40px !important;
+        height: 40px !important;
+        min-height: 40px !important;
+    }
+
+    .quick-actions-buttons {
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $primary-color;
+
+            svg {
+                fill: $primary-color;
+            }
+        }
+    }
+}

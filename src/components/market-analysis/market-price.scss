@@ -1,0 +1,23 @@
+@import '../../base';
+
+.market-price-container {
+
+    .market-price-container_table {
+        padding: .8rem 5rem;
+        pointer-events: none;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .market-price-container {
+        padding: 0 !important; 
+    
+        .market-price-container_table {
+            padding: .8rem;
+            pointer-events: none;
+        }
+    
+    }
+}
+  

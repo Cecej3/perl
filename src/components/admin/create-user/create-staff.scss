@@ -1,0 +1,74 @@
+@import "../../../base";
+
+.user-container {
+
+    .image-container {
+        width: 100%;
+        overflow-x: scroll;
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: .8rem;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        .image-display {
+            width: 140px;
+            height: 140px;
+            position: relative;
+
+            button {
+                position: absolute;
+                background: rgba($color: #000000, $alpha: 0.6);
+                color: crimson;
+                top: 0;
+                right: 0;
+                width: fit-content;
+                height: fit-content;
+                padding: .4rem;
+
+                svg {
+                    fill: crimson;
+                }
+            }
+
+            img {
+                width: 140px;
+                height: 140px;
+                max-width: 140px;
+                object-fit: cover;
+                border-radius: 8px;
+            }
+        }
+    }
+
+    .staff-image-upload {
+        border: 1px dashed $primary-color-dark;
+        border-radius: 6px;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .add-image-upload {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: .5rem;
+        width: 100%;
+        margin: .2rem 0;
+        background: $primary-color-dark;
+        color: white;
+        cursor: pointer;
+        padding: .4rem;
+        border-radius: 6px;
+        border: 0;
+    }
+}

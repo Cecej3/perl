@@ -1,0 +1,45 @@
+@import "../../base";
+
+@mixin main-content-bg-sm {
+    width: 90%;
+    background: white;
+    padding: 0;
+    border-radius: .8rem;
+}
+
+@mixin main-content-bg-lg {
+    width: 80%;
+    background: white;
+    padding: 0;
+    border-radius: .8rem;
+}
+
+.profile_page {
+    @include main-content-bg-sm();
+}
+
+.business-update-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+    padding: 1.2rem 0;
+
+    .text-input {
+        background: $text-grey;
+        width: 90%;
+    }
+
+    >button {
+        margin-bottom: 0.4rem;
+        width: 90%;
+    }
+}
+
+
+/**MEDIA QUERY FOR THE PROFILE PAGE*/
+@media screen and (min-width: 1000px) {
+    .profile_page {
+        @include main-content-bg-lg();
+    }
+}

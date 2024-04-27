@@ -1,0 +1,95 @@
+$primary-color : #4A087A;
+$primary-color-light : #9f2cf2;
+$primary-color-dark : #1d0330;
+$secondary-color: #06175c;
+$danger-color : #860e0e;
+$text-dark: #00060c;
+$text-white: #ffffff;
+$text-grey: #a8a8a8;
+$text-dark-grey: #5c5c5c;
+$bg-dark: hsla(209, 86%, 8%, 0.6);
+
+
+
+
+// background: rgba(74, 8, 122, 0.44);
+// border-radius: 16px;
+// box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+// backdrop-filter: blur(7.1px);
+// -webkit-backdrop-filter: blur(7.1px);
+// border: 1px solid rgba(74, 8, 122, 0.12);
+
+// box-shadow: 0px 0px 20px 1px #ffbb763f;
+
+// linear-gradient(to right, var(--tj-theme-primary) 0%, var(--tj-white) 100%)
+// --tj-theme-primary = #8750f7
+
+
+
+// .button {
+//     position: relative;
+//     transition: all 0.3s ease-in-out;
+//     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+//     padding-block: 0.5rem;
+//     padding-inline: 1.25rem;
+//     background-color: rgb(0 107 179);
+//     border-radius: 9999px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     cursor: pointer;
+//     color: #ffff;
+//     gap: 10px;
+//     font-weight: bold;
+//     border: 3px solid #ffffff4d;
+//     outline: none;
+//     overflow: hidden;
+//     font-size: 15px;
+// }
+
+// .icon {
+//     width: 24px;
+//     height: 24px;
+//     transition: all 0.3s ease-in-out;
+// }
+
+// .button:hover {
+//     transform: scale(1.05);
+//     border-color: #fff9;
+// }
+
+// .button:hover .icon {
+//     transform: translate(4px);
+// }
+
+// .button:hover::before {
+//     animation: shine 1.5s ease-out infinite;
+// }
+
+// .button::before {
+//     content: "";
+//     position: absolute;
+//     width: 100px;
+//     height: 100%;
+//     background-image: linear-gradient(120deg,
+//             rgba(255, 255, 255, 0) 30%,
+//             rgba(255, 255, 255, 0.8),
+//             rgba(255, 255, 255, 0) 70%);
+//     top: 0;
+//     left: -100px;
+//     opacity: 0.6;
+// }
+
+// @keyframes shine {
+//     0% {
+//         left: -100px;
+//     }
+
+//     60% {
+//         left: 100%;
+//     }
+
+//     to {
+//         left: 100%;
+//     }
+// }

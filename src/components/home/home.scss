@@ -1,0 +1,28 @@
+@import '../../base';
+
+
+.milestone-container {
+    padding: 2.2rem 1.5rem;
+    text-align: center;
+    // background: $primary-color-dark;
+    color: $primary-color;
+}
+
+.milestone-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.1rem;
+    padding: 1rem;
+}
+
+.milestone-grid-card {
+    h1 {
+        background: linear-gradient(to right, $primary-color 0%, $text-grey 100%);
+            background: -webkit-linear-gradient(to right, $primary-color 0%, $text-grey 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            width: fit-content;
+            margin: 0 auto;
+    }
+}

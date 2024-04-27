@@ -1,0 +1,147 @@
+@import '../../base';
+
+@mixin bg-image-props {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-container {
+
+    .hero-container_wrapper {
+        background: $primary-color-dark;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        color: $text-white;
+        padding: 1.5rem;
+
+        h1 {
+            font-size: 3.6rem;
+            margin: 0;
+            letter-spacing: 4px;
+            word-spacing: 4px;
+            text-align: left;
+            word-wrap: break-word;
+            background: linear-gradient(to right, $primary-color-light 0%, $text-grey 100%);
+                background: -webkit-linear-gradient(to right, $primary-color-light 0%, $text-grey 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                width: fit-content;
+        }
+    
+        h5 {
+            font-size: 1.3rem;
+            margin: 0;
+            word-spacing: 3px;
+            text-align: left;
+        }
+
+        .hero-container_wrapper_buttons {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: .6rem;
+            margin-top: .8rem;
+
+        }
+    }
+
+}
+  
+
+// @media screen and (max-width: 854px) {
+//     .hero-container {
+    
+//         // .hero-container_wrapper {
+//         //     height: 85vh;
+    
+//         //     // h1 {
+//         //     //     font-size: 4rem;
+//         //     //     line-height: 76px;
+//         //     // }
+        
+//         //     // h5 {
+//         //     //     font-size: 1.1rem;
+//         //     // }
+//         // }
+    
+//     }      
+// }
+
+
+// @media screen and (max-width: 698px) {
+//     .hero-container {
+    
+//         .hero-container_wrapper {
+//             height: fit-content;
+//             padding: 3.4rem .6rem !important;
+    
+//             h1 {
+//                 font-size: 3rem;
+//                 line-height: 56px;
+//                 margin: 0;
+//                 letter-spacing: 3px;
+//                 word-spacing: 3px;
+//             }
+        
+//             h5 {
+//                 font-size: 1rem;
+//                 margin: 0;
+//                 word-spacing: 2px;
+//             }
+    
+//         }
+    
+//     }
+         
+// }
+
+// @media screen and (max-width: 454px) {
+//     .hero-container {
+    
+//         .hero-container_wrapper {
+//             background: #00060ea8;
+//             height: fit-content;
+
+    
+//             .hero-container_wrapper_buttons {
+//                 grid-template-columns: 1fr;
+//             }
+//         }
+    
+//     }
+         
+// }
+
+// @media screen and (max-width: 324px) {
+//     .hero-container {
+    
+//         .hero-container_wrapper {
+//             background: #00060ea8;
+//             padding: 2rem .5rem;
+    
+//             h1 {
+//                 font-size: 2rem;
+//                 line-height: 36px;
+//                 margin: .4rem 0;
+//                 letter-spacing: 2px;
+//                 word-spacing: 2px;
+//             }
+        
+//             h5 {
+//                 font-size: 1rem;
+//                 margin: .2rem 0;
+//                 word-spacing: 2px;
+//             }
+    
+//             .hero-container_wrapper_buttons {
+//                 grid-template-columns: 1fr;
+//             }
+//         }
+    
+//     }
+         
+// }
